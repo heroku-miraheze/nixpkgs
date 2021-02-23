@@ -29890,6 +29890,8 @@ in
 
   tomboy = callPackage ../applications/misc/tomboy { };
 
+  trafficserver = callPackage ../servers/trafficserver { };
+
   imatix_gsl = callPackage ../development/tools/imatix_gsl {};
 
   sccache = callPackage ../development/tools/misc/sccache {
